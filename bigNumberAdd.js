@@ -1,5 +1,5 @@
 
-n addZero(str, length) {
+function addZero(str, length) {
     return new Array(length - str.length + 1).join("0") + str;             
 }
 
